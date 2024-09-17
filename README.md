@@ -9,7 +9,11 @@ Alternatively, read here for a basic overview on how to use this repository.
 To get started, [Use this template](https://github.com/new?template_name=forge-template-1.8.9&template_owner=hahaha98757).
 
 > [!WARNING]
-> Do not Fork or Clone or Download ZIP this template. If you "use" this template a custom mod id will be generated. You can do that manually using the `make-my-own` script, if you are on linux. If not, just click the use this template button.
+> You need to change the contents of some files.
+> In the 'gradle.properties' file, change 'baseGroup' and 'modid' appropriately.
+> In the 'settings.gradle.kts' file, change line 26 (rootProject.name = "examplemod") appropriately.
+> Change 'ExampleMod.java', 'AutoDiscoveryMixinPlugin.java', 'MixinGuiMainMenu.java', and 'mcmod.info' file appropriately. Rename "examplemod" of 'mixins.examplemod.json' file to your mod's modid.
+ 
 
 This project uses [DevAuth](https://github.com/DJtheRedstoner/DevAuth) per default, so you can log in using your real
 minecraft account. If you don't need that, you can remove it from the buildscript.
