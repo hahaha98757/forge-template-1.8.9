@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "${modid}",
+    "name": "Example Mod",
+    "description": "A mod that is used as an example.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/hahaha98757/forge-template-1.8.9/",
+    "updateUrl": "",
+    "authorList": [
+      "You"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
